@@ -5,10 +5,11 @@ align-content: center;
 font-family: 'Poiret One', cursive;
 }
 
-h2 {
-
-}
-
-p {
-
+button {
+  color:black;
+  border:2px solid black;
+  background:transparent;
+  border-radius:25px;
+  height:50spx;
+  width:100px;
 }
