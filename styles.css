@@ -5,10 +5,14 @@ align-content: center;
 font-family: 'Poiret One', cursive;
 }
 
-h2 {
-
-}
-
-p {
-
+button {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  color:black;
+  border:2px solid black;
+  background:transparent;
+  border-radius:30px;
+  height:60px;
+  width:100px;
 }
