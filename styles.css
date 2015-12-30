@@ -6,10 +6,13 @@ font-family: 'Poiret One', cursive;
 }
 
 button {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  font-weight: bolder;
   color:black;
   border:2px solid black;
   background:transparent;
-  border-radius:25px;
-  height:50spx;
+  border-radius:30px;
+  height:60px;
   width:100px;
 }
