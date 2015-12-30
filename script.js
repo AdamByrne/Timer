@@ -11,9 +11,13 @@ window.onload = function() {
       running = 1;
       increment()
       Start.innerHTML = "Pause";
+      Start.style.color = "red";
+      Start.style.borderColor = "red";
     }else{
       running = 0
       Start.innerHTML = "Play";
+      Start.style.color = "black";
+      Start.style.borderColor = "black";
     }
   };
 
