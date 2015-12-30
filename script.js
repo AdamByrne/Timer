@@ -5,6 +5,7 @@ window.onload = function() {
 
   var time = 0;
   var running = 0;
+  var secs, mins, tenths;
 
   Start.onclick = function() {
     if(Start.innerHTML === "Play" && running === 0) {
@@ -36,9 +37,17 @@ window.onload = function() {
       setTimeout(function() {
         time++;
         mins = Math.floor(time / 10 / 60);
-        secs = Math.floor(time / 10);
+
+        secs = Math.floor(time / 10 % 60);
+if (mins < 10) {
+  mins = "0" + mins;
+}
+if (secs < 10) {
+  secs = "0" + secs;
+}
+
         tenths = time % 10;
-        Timer.innerHTML = mins+":"+secs+":"+tenths;
+        Timer.innerHTML = mins+":"+secs+":"+"0"+tenths;
         increment();
       },100);
     }
